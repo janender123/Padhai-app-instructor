@@ -56,12 +56,12 @@ const WelcomeAdmin = () => {
       <CardContent sx={{ p: theme => `${theme.spacing(6.75, 7.5)} !important` }}>
         <Grid container spacing={6}>
           <Grid item xs={12} sm={6}>
-            <Typography variant='h5' sx={{ mb: 4.5, color: 'white', fontSize: '2.4rem !important' }}>
+            <Typography variant='h5' sx={{ mb: 4.5, color: 'white', fontSize: '2.0rem !important' }}>
               Welcome{' '}
               <Box component='span' sx={{ fontWeight: 'bold' }}>
-                Admin
+                Instructor ! 🎉
               </Box>
-              ! 🎉
+             
             </Typography>
             <Typography variant='body2'>
               <Box component='span' sx={{ fontWeight: 600 }}></Box>{' '}

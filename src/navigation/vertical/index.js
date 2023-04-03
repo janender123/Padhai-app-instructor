@@ -7,38 +7,41 @@ const navigation = () => {
         {
           title: 'Home',
           path: '/dashboards/home'
-        },
-        {
-          title: 'Marketing',
-          path: '/dashboards/marketing'
         }
+
+        // {
+        //   title: 'Marketing',
+        //   path: '/dashboards/marketing'
+        // }
       ]
     },
     {
       sectionTitle: 'Education'
     },
-    {
-      title: 'Categories',
-      icon: 'mdi:file-document-outline',
-      children: [
-        {
-          title: 'Boards and Exams',
-          path: '/apps/categories/boards-and-exam'
-        },
-        {
-          title: 'Classes',
-          path: '/apps/categories/class'
-        },
-        {
-          title: 'Streams',
-          path: '/apps/categories/stream'
-        },
-        {
-          title: 'Language',
-          path: '/apps/categories/language'
-        }
-      ]
-    },
+
+    // {
+    //   title: 'Categories',
+    //   icon: 'mdi:file-document-outline',
+    //   children: [
+    //     {
+    //       title: 'Boards and Exams',
+    //       path: '/apps/categories/boards-and-exam'
+    //     },
+    //     {
+    //       title: 'Classes',
+    //       path: '/apps/categories/class'
+    //     },
+    //     {
+    //       title: 'Streams',
+    //       path: '/apps/categories/stream'
+    //     },
+    //     {
+    //       title: 'Language',
+    //       path: '/apps/categories/language'
+    //     }
+    //   ]
+    // },
+    
     {
       title: 'Courses',
       icon: 'fluent-mdl2:publish-course',

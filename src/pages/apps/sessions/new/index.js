@@ -175,22 +175,6 @@ const AddNewQuestionInStudyMaterial = () => {
                   </Select>
                 </FormControl>
               </Grid>
-              <Grid item xs={12} sm={6} mt={4}>
-                <FormControl fullWidth>
-                  <InputLabel id='demo-simple-select-outlined-label'>Instructor</InputLabel>
-                  <Select
-                    value={instructor}
-                    onChange={e => setInstructor(e.target.value)}
-                    label='Instructor'
-                    id='demo-simple-select-outlined'
-                    labelId='demo-simple-select-outlined-label'
-                  >
-                    <MenuItem value={10}>Mr. Pradeep Sharma</MenuItem>
-                    <MenuItem value={20}>Mr. Deepak Kumar</MenuItem>
-                    <MenuItem value={30}>Mr. Yogesh</MenuItem>
-                  </Select>
-                </FormControl>
-              </Grid>
               <Grid item xs={12} sm={6} >
                   <ScheduleSession fullWidth popperPlacement={popperPlacement} />
               </Grid>

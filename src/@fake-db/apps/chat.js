@@ -9,7 +9,7 @@ const data = {
     id: 11,
     avatar: '/images/avatars/3.png',
     fullName: 'Shyam Prasad',
-    role: 'admin',
+    role: 'Instructor',
     about:
       'Dessert chocolate cake lemon drops jujubes. Biscuit cupcake ice cream bear claw brownie brownie marshmallow.',
     status: 'online',
@@ -80,7 +80,7 @@ const data = {
           }
         },
         {
-          message: 'Hey John, I am looking for the best admin template. Could you please help me to find it out?',
+          message: 'Hey John, I am looking for the best Instructor template. Could you please help me to find it out?',
           time: 'Mon Dec 10 2018 07:45:23 GMT+0000 (GMT)',
           senderId: 1,
           feedback: {

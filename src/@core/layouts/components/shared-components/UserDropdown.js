@@ -116,7 +116,7 @@ const UserDropdown = props => {
             <Box sx={{ display: 'flex', ml: 3, alignItems: 'flex-start', flexDirection: 'column' }}>
               <Typography sx={{ fontWeight: 600 }}>Shyam Prasad</Typography>
               <Typography variant='body2' sx={{ fontSize: '0.8rem', color: 'text.disabled' }}>
-                Admin
+                Instructor
               </Typography>
             </Box>
           </Box>

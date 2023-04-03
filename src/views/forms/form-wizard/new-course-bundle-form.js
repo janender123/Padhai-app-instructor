@@ -798,24 +798,6 @@ const [sectionList, setSectionList] = useState([
               </FormControl>
             </Grid>
             <Grid item xs={12} sm={6}>
-              <FormControl fullWidth>
-                <InputLabel id='demo-simple-select-outlined-label'>Instructor</InputLabel>
-                <Select
-                  multiple
-                  value={instructor}
-                  onChange={e => setInstructor(e.target.value)}
-                  label='Instructor'
-                  id='demo-simple-select-outlined'
-                  labelId='demo-simple-select-outlined-label'
-                >
-                  <MenuItem value={10}>Mr. Pradeep Sharma</MenuItem>
-                  <MenuItem value={20}>Mr. Deepak Kumar</MenuItem>
-                  <MenuItem value={30}>Mr. Yogesh</MenuItem>
-                  {/* <MenuItem value={30}>12th</MenuItem> */}
-                </Select>
-              </FormControl>
-            </Grid>
-            <Grid item xs={12} sm={6}>
               {/* <TextField
                 fullWidth
                 label='Also in which category'
